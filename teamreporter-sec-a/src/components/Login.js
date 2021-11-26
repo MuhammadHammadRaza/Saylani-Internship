@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
+import { Link } from 'react-router-dom';
 function Login() {
     return (
       <div className="Login">
@@ -41,7 +42,11 @@ function Login() {
         }}
       >
         <Button type="primary" htmlType="submit">
-          Login
+        <Link to='Home'> Login </Link>
+          
+        </Button>
+        <Button type="primary" htmlType="submit">
+          <Link to='signup'> Signup </Link>
         </Button>
       </Form.Item>
       </Form>
