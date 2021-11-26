@@ -4,6 +4,10 @@ function Login() {
     return (
       <div className="Login">
         <h1>Login</h1>
+        <Form
+      name="basic"
+
+    >
         <Form.Item
         label="Username"
         name="username"
@@ -40,6 +44,7 @@ function Login() {
           Login
         </Button>
       </Form.Item>
+      </Form>
       </div>
     );
   }
