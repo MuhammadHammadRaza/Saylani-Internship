@@ -1,5 +1,6 @@
 .signupParent{
     width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,4 +10,8 @@
     width: 60%;
     box-shadow: 0 0 5px #00000052;
     border-radius: 13px;
+}
+input.ant-input {
+    width: 85%;
+    margin: 8px 0;
 }
