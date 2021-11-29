@@ -3,10 +3,12 @@ import { Form, Input, Button } from "antd";
 import "./signup.css";
 
 const Signup = () => {
+
   return (
     <div className="signupParent">
       <div className="signupField">
         <h2>Signup</h2>
+
 
         <Input placeholder="User Name" />
         <Input placeholder="Email Address" />
